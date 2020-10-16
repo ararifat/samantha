@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+*{ 
+margin: o;
+padding: o;
+
+}
+.abschnitt{ 
+background-color: #b8bfaf;
+border: 2px solid black;
+
+}
+#logo    {
+    text-align: center;
+    padding: 100px;
+    background-color: #8fbeb8;
+    background-image: url(pattern-zag.png), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(103,211,198,1.00) 79.27%,rgba(78,204,189,1.00) 92.75%,rgba(65,201,184,1.00) 100%);
+    background-image: url(pattern-zag.png), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(103,211,198,1.00) 79.27%,rgba(78,204,189,1.00) 92.75%,rgba(65,201,184,1.00) 100%);
+    background-image: url(pattern-zag.png), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(103,211,198,1.00) 79.27%,rgba(78,204,189,1.00) 92.75%,rgba(65,201,184,1.00) 100%);
+    background-image: url(pattern-zag.png), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(103,211,198,1.00) 79.27%,rgba(78,204,189,1.00) 92.75%,rgba(65,201,184,1.00) 100%);
+	
+}
+
+p{
+    width: 100%;
+    text-align: center;
+    background-color: #A9A9A9;
+    height: 100%;
+    min-width: 0px;
+}
+#navi {
+background-color: #fcf1c6;
+padding: 30px;
+text-align: center;
+}
+
+
+a {
+color: #8f814c;
+text-decoration: none;
+font-size: 30px;
+padding: 0px 20px;
+}
+
+#about {
+text-align: center;
+}
+#zweispaltig {
+
+column-count: 2;
+text-align: left;
+width : 800px;
+margin: 50px auto;
+}
+#beschreib {
+}
+a {
+}
+h1 {
+    padding-top: 0px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    float: none;
+    width: auto;
+}
+
+
+h2 {
+}
+h3 {
+}
+p {
+}
+#formular {
+    width: 30%;
+	margin-left: 30%;
+	
+}
+
+form input {
+    background-color: #C6CDBE;
+    border-width: 0px;
+    width: 50%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    background-image: url(url);
+    text-align: center;
+    color: #979797;
+}
